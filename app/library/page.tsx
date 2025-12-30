@@ -37,7 +37,7 @@ export default function LibraryPage() {
       const width = window.innerWidth;
       if (width >= 1024) setColumns(4); 
       else if (width >= 768) setColumns(3); 
-      else setColumns(2); 
+      else setColumns(1); 
     };
     updateColumns();
     window.addEventListener('resize', updateColumns);
@@ -142,7 +142,7 @@ export default function LibraryPage() {
                       width: '100%',
                       transform: `translateY(${virtualRow.start}px)`,
                     }}
-                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2"
+                    className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2"
                   >
                     {rowBooks.map((book) => (
                       <BookCard key={book.key} book={book} />
