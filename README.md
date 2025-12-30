@@ -13,7 +13,7 @@ A high-performance, infinite-scrolling book explorer application built for the E
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
+- **Framework:** [Next.js 16 (App Router)](https://nextjs.org/)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
